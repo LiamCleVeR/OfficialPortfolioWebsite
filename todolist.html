@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+    <h1>Welcome to this simple to-do list application</h1><br>
+    <div class="appInterface">
+        <div id="tasking">
+        <textarea id="task-name" placeholder="Task Name" ></textarea>
+        <textarea id="task-description" placeholder="Task description"></textarea>
+    </div>
+    <div id="tasks" class="radio-group">
+        <div>
+        <input type="radio" id="task0" name="task0" value="task0">
+        <label for="task0">Task 1</label>
+        ,</div>
+        <div>
+        <input type="radio" id="task1" name="task1" value="task1">
+        <label for="task1">Task 2</label>
+    </div>
+    <div>
+        <input type="radio" id="task2" name="task2" value="task2">
+        <label for="task2">Task 3</label>
+    </div>
+    </div>
+    <div class="button-container">
+        <button id="add">Add tasks</button><br>
+        <button id="markCmplt">Mark tasks as complete</button><br>
+        <button id="rmv">Remove tasks</button>
+    </div>
+    </div>
+
+</body>
+</html>
